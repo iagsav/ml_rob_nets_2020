@@ -1,0 +1,768 @@
+No.     Time           Source                Destination           Protocol Length Info
+   1246 26.214303      192.168.0.11          52.58.116.196         TCP      66     55324 → 443 [SYN] Seq=1919212848 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 1246: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919212848, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1257 26.260525      192.168.0.11          52.58.116.196         TCP      66     55325 → 443 [SYN] Seq=4220118670 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 1257: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55325, Dst Port: 443, Seq: 4220118670, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1269 26.289796      52.58.116.196         192.168.0.11          TCP      66     443 → 55324 [SYN, ACK] Seq=2546765293 Ack=1919212849 Win=29200 Len=0 MSS=1452 SACK_PERM=1 WS=256
+
+Frame 1269: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546765293, Ack: 1919212849, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1270 26.289910      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919212849 Ack=2546765294 Win=132096 Len=0
+
+Frame 1270: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919212849, Ack: 2546765294, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1272 26.290132      192.168.0.11          52.58.116.196         TLSv1.2  571    Client Hello
+
+Frame 1272: 571 bytes on wire (4568 bits), 571 bytes captured (4568 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919212849, Ack: 2546765294, Len: 517
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1284 26.369976      52.58.116.196         192.168.0.11          TCP      54     443 → 55324 [ACK] Seq=2546765294 Ack=1919213366 Win=30464 Len=0
+
+Frame 1284: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546765294, Ack: 1919213366, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1285 26.370259      52.58.116.196         192.168.0.11          TLSv1.2  1506   Server Hello
+
+Frame 1285: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546765294, Ack: 1919213366, Len: 1452
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1286 26.370585      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546766746 Ack=1919213366 Win=30464 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1286: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546766746, Ack: 1919213366, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1287 26.370626      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919213366 Ack=2546768198 Win=132096 Len=0
+
+Frame 1287: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919213366, Ack: 2546768198, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1288 26.370662      52.58.116.196         192.168.0.11          TLSv1.2  641    Certificate, Server Key Exchange, Server Hello Done
+
+Frame 1288: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546768198, Ack: 1919213366, Len: 587
+[3 Reassembled TCP Segments (3069 bytes): #1285(1377), #1286(1452), #1288(240)]
+Transport Layer Security
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1289 26.371689      192.168.0.11          52.58.116.196         TLSv1.2  180    Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 1289: 180 bytes on wire (1440 bits), 180 bytes captured (1440 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919213366, Ack: 2546768785, Len: 126
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1293 26.380247      192.168.0.11          52.58.116.196         TLSv1.2  147    Application Data
+
+Frame 1293: 147 bytes on wire (1176 bits), 147 bytes captured (1176 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919213492, Ack: 2546768785, Len: 93
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1295 26.380515      192.168.0.11          52.58.116.196         TLSv1.2  660    Application Data
+
+Frame 1295: 660 bytes on wire (5280 bits), 660 bytes captured (5280 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919213585, Ack: 2546768785, Len: 606
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1303 26.452335      52.58.116.196         192.168.0.11          TLSv1.2  312    New Session Ticket, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 1303: 312 bytes on wire (2496 bits), 312 bytes captured (2496 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546768785, Ack: 1919213492, Len: 258
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1304 26.452409      52.58.116.196         192.168.0.11          TLSv1.2  123    Application Data
+
+Frame 1304: 123 bytes on wire (984 bits), 123 bytes captured (984 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546769043, Ack: 1919213492, Len: 69
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1305 26.452443      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214191 Ack=2546769112 Win=131072 Len=0
+
+Frame 1305: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214191, Ack: 2546769112, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1306 26.452601      192.168.0.11          52.58.116.196         TLSv1.2  92     Application Data
+
+Frame 1306: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214191, Ack: 2546769112, Len: 38
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1307 26.459829      52.58.116.196         192.168.0.11          TLSv1.2  92     Application Data
+
+Frame 1307: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546769112, Ack: 1919213585, Len: 38
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1312 26.500365      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546769150 Win=131072 Len=0
+
+Frame 1312: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546769150, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1313 26.501673      52.58.116.196         192.168.0.11          TCP      60     443 → 55324 [ACK] Seq=2546769150 Ack=1919214191 Win=31488 Len=0
+
+Frame 1313: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546769150, Ack: 1919214191, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1315 26.517673      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546769150 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1315: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546769150, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1316 26.517783      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546770602 Win=132096 Len=0
+
+Frame 1316: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546770602, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1317 26.517855      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546770602 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1317: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546770602, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1318 26.517899      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546772054 Win=132096 Len=0
+
+Frame 1318: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546772054, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1319 26.517997      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546772054 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1319: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546772054, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1320 26.518038      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546773506 Win=132096 Len=0
+
+Frame 1320: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546773506, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1321 26.518345      52.58.116.196         192.168.0.11          TLSv1.2  1506   Application Data [TCP segment of a reassembled PDU]
+
+Frame 1321: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546773506, Ack: 1919214191, Len: 1452
+[4 Reassembled TCP Segments (5626 bytes): #1315(1452), #1317(1452), #1319(1452), #1321(1270)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1322 26.518392      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546774958 Win=132096 Len=0
+
+Frame 1322: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546774958, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1323 26.518487      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546774958 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1323: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546774958, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1324 26.518528      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546776410 Win=132096 Len=0
+
+Frame 1324: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546776410, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1325 26.518688      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546776410 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1325: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546776410, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1326 26.518718      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546777862 Win=132096 Len=0
+
+Frame 1326: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546777862, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1327 26.518855      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546777862 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1327: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546777862, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1328 26.518891      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546779314 Win=132096 Len=0
+
+Frame 1328: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546779314, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1333 26.531261      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546779314 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1333: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546779314, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1334 26.531371      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546780766 Win=132096 Len=0
+
+Frame 1334: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546780766, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1335 26.531431      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546780766 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1335: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546780766, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1336 26.531474      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546782218 Win=132096 Len=0
+
+Frame 1336: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546782218, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1337 26.531701      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546782218 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1337: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546782218, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1338 26.531751      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546783670 Win=132096 Len=0
+
+Frame 1338: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546783670, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1339 26.531787      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546783670 Ack=1919214191 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1339: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546783670, Ack: 1919214191, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1340 26.531826      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546785122 Win=132096 Len=0
+
+Frame 1340: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546785122, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1341 26.531856      52.58.116.196         192.168.0.11          TCP      60     443 → 55324 [ACK] Seq=2546785122 Ack=1919214229 Win=31488 Len=0
+
+Frame 1341: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546785122, Ack: 1919214229, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1351 26.582242      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546785122 Ack=1919214229 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1351: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546785122, Ack: 1919214229, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1352 26.582336      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546786574 Ack=1919214229 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 1352: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546786574, Ack: 1919214229, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   1353 26.582389      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546788026 Win=132096 Len=0
+
+Frame 1353: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546788026, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1358 26.597790      52.58.116.196         192.168.0.11          TLSv1.2  190    Application Data, Application Data
+
+Frame 1358: 190 bytes on wire (1520 bits), 190 bytes captured (1520 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546788026, Ack: 1919214229, Len: 136
+[11 Reassembled TCP Segments (13348 bytes): #1321(182), #1323(1452), #1325(1452), #1327(1452), #1333(1452), #1335(1452), #1337(1452), #1339(1452), #1351(1452), #1352(1452), #1358(98)]
+Transport Layer Security
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   1371 26.639544      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214229 Ack=2546788162 Win=131840 Len=0
+
+Frame 1371: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546788162, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1530 27.112040      52.58.116.196         192.168.0.11          TCP      66     443 → 55325 [SYN, ACK] Seq=3198604133 Ack=4220118671 Win=29200 Len=0 MSS=1452 SACK_PERM=1 WS=256
+
+Frame 1530: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55325, Seq: 3198604133, Ack: 4220118671, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1531 27.112189      192.168.0.11          52.58.116.196         TCP      54     55325 → 443 [ACK] Seq=4220118671 Ack=3198604134 Win=132096 Len=0
+
+Frame 1531: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55325, Dst Port: 443, Seq: 4220118671, Ack: 3198604134, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1815 28.116055      52.58.116.196         192.168.0.11          TCP      66     443 → 55325 [SYN, ACK] Seq=3198604133 Ack=4220118671 Win=29200 Len=0 MSS=1452 SACK_PERM=1 WS=256
+
+Frame 1815: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55325, Seq: 3198604133, Ack: 4220118671, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1816 28.116115      192.168.0.11          52.58.116.196         TCP      66     55325 → 443 [ACK] Seq=4220118671 Ack=3198604134 Win=132096 Len=0 SLE=3198604133 SRE=3198604134
+
+Frame 1816: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55325, Dst Port: 443, Seq: 4220118671, Ack: 3198604134, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1875 30.118754      52.58.116.196         192.168.0.11          TCP      66     443 → 55325 [SYN, ACK] Seq=3198604133 Ack=4220118671 Win=29200 Len=0 MSS=1452 SACK_PERM=1 WS=256
+
+Frame 1875: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55325, Seq: 3198604133, Ack: 4220118671, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   1876 30.118814      192.168.0.11          52.58.116.196         TCP      66     55325 → 443 [ACK] Seq=4220118671 Ack=3198604134 Win=132096 Len=0 SLE=3198604133 SRE=3198604134
+
+Frame 1876: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55325, Dst Port: 443, Seq: 4220118671, Ack: 3198604134, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   2026 34.378264      52.58.116.196         192.168.0.11          TCP      66     443 → 55325 [SYN, ACK] Seq=3198604133 Ack=4220118671 Win=29200 Len=0 MSS=1452 SACK_PERM=1 WS=256
+
+Frame 2026: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55325, Seq: 3198604133, Ack: 4220118671, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   2027 34.378344      192.168.0.11          52.58.116.196         TCP      66     55325 → 443 [ACK] Seq=4220118671 Ack=3198604134 Win=132096 Len=0 SLE=3198604133 SRE=3198604134
+
+Frame 2027: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55325, Dst Port: 443, Seq: 4220118671, Ack: 3198604134, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3167 63.821446      192.168.0.11          52.58.116.196         TLSv1.2  144    Application Data
+
+Frame 3167: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214229, Ack: 2546788162, Len: 90
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   3168 63.821559      192.168.0.11          52.58.116.196         TLSv1.2  100    Application Data
+
+Frame 3168: 100 bytes on wire (800 bits), 100 bytes captured (800 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214319, Ack: 2546788162, Len: 46
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   3171 63.824978      192.168.0.11          52.58.116.196         TCP      54     55325 → 443 [FIN, ACK] Seq=4220118671 Ack=3198604134 Win=132096 Len=0
+
+Frame 3171: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55325, Dst Port: 443, Seq: 4220118671, Ack: 3198604134, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3181 63.887705      52.58.116.196         192.168.0.11          TCP      60     443 → 55324 [ACK] Seq=2546788162 Ack=1919214319 Win=31488 Len=0
+
+Frame 3181: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546788162, Ack: 1919214319, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3182 63.887795      52.58.116.196         192.168.0.11          TCP      60     443 → 55324 [ACK] Seq=2546788162 Ack=1919214365 Win=31488 Len=0
+
+Frame 3182: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546788162, Ack: 1919214365, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3183 63.887868      52.58.116.196         192.168.0.11          TLSv1.2  100    Application Data
+
+Frame 3183: 100 bytes on wire (800 bits), 100 bytes captured (800 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546788162, Ack: 1919214365, Len: 46
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   3192 63.928880      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214365 Ack=2546788208 Win=131840 Len=0
+
+Frame 3192: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214365, Ack: 2546788208, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3201 63.970625      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546788208 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3201: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546788208, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3202 63.970683      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546789660 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3202: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546789660, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3203 63.970731      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214365 Ack=2546791112 Win=132096 Len=0
+
+Frame 3203: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214365, Ack: 2546791112, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3204 63.970852      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546791112 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3204: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546791112, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3206 63.971771      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546792564 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3206: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546792564, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3207 63.971846      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214365 Ack=2546794016 Win=132096 Len=0
+
+Frame 3207: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214365, Ack: 2546794016, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3208 63.971957      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546794016 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3208: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546794016, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3209 63.972130      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546795468 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3209: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546795468, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3210 63.972180      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214365 Ack=2546796920 Win=132096 Len=0
+
+Frame 3210: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214365, Ack: 2546796920, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3211 63.972308      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546796920 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3211: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546796920, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3212 63.972537      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546798372 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3212: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546798372, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3213 63.972592      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214365 Ack=2546799824 Win=132096 Len=0
+
+Frame 3213: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214365, Ack: 2546799824, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3214 63.972916      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546799824 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3214: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546799824, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3215 63.973222      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546801276 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3215: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546801276, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3216 63.973286      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214365 Ack=2546802728 Win=132096 Len=0
+
+Frame 3216: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214365, Ack: 2546802728, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3217 63.973341      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546802728 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3217: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546802728, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3218 63.973481      52.58.116.196         192.168.0.11          TLSv1.2  1506   Application Data [TCP segment of a reassembled PDU]
+
+Frame 3218: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546804180, Ack: 1919214365, Len: 1452
+[12 Reassembled TCP Segments (16413 bytes): #3201(1452), #3202(1452), #3204(1452), #3206(1452), #3208(1452), #3209(1452), #3211(1452), #3212(1452), #3214(1452), #3215(1452), #3217(1452), #3218(441)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   3219 63.973527      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214365 Ack=2546805632 Win=132096 Len=0
+
+Frame 3219: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214365, Ack: 2546805632, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3220 63.973602      52.58.116.196         192.168.0.11          TCP      1506   443 → 55324 [ACK] Seq=2546805632 Ack=1919214365 Win=31488 Len=1452 [TCP segment of a reassembled PDU]
+
+Frame 3220: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546805632, Ack: 1919214365, Len: 1452
+
+No.     Time           Source                Destination           Protocol Length Info
+   3221 63.973628      52.58.116.196         192.168.0.11          TLSv1.2  194    Application Data, Application Data
+
+Frame 3221: 194 bytes on wire (1552 bits), 194 bytes captured (1552 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546807084, Ack: 1919214365, Len: 140
+[3 Reassembled TCP Segments (2565 bytes): #3218(1011), #3220(1452), #3221(102)]
+Transport Layer Security
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+   3222 63.973649      192.168.0.11          52.58.116.196         TCP      54     55324 → 443 [ACK] Seq=1919214365 Ack=2546807224 Win=132096 Len=0
+
+Frame 3222: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214365, Ack: 2546807224, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3433 66.359995      192.168.0.11          52.58.116.196         TCP      54     55325 → 443 [FIN, ACK] Seq=4220118671 Ack=3198604134 Win=132096 Len=0
+
+Frame 3433: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55325, Dst Port: 443, Seq: 4220118671, Ack: 3198604134, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3478 67.177137      52.58.116.196         192.168.0.11          TCP      54     443 → 55325 [FIN, ACK] Seq=3198604134 Ack=4220118672 Win=29440 Len=0
+
+Frame 3478: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55325, Seq: 3198604134, Ack: 4220118672, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   3479 67.177201      192.168.0.11          52.58.116.196         TCP      54     55325 → 443 [ACK] Seq=4220118672 Ack=3198604135 Win=132096 Len=0
+
+Frame 3479: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55325, Dst Port: 443, Seq: 4220118672, Ack: 3198604135, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   4094 77.857211      192.168.0.11          52.58.116.196         ICMP     74     Echo (ping) request  id=0x0001, seq=87/22272, ttl=64 (no response found!)
+
+Frame 4094: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   4219 82.431294      192.168.0.11          52.58.116.196         ICMP     74     Echo (ping) request  id=0x0001, seq=88/22528, ttl=64 (no response found!)
+
+Frame 4219: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   4498 88.565379      192.168.0.11          52.58.116.196         ICMP     74     Echo (ping) request  id=0x0001, seq=89/22784, ttl=64 (no response found!)
+
+Frame 4498: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   4800 93.430360      192.168.0.11          52.58.116.196         ICMP     74     Echo (ping) request  id=0x0001, seq=90/23040, ttl=64 (no response found!)
+
+Frame 4800: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   5361 108.973491     192.168.0.11          52.58.116.196         TCP      55     55324 → 443 [ACK] Seq=1919214364 Ack=2546807224 Win=132096 Len=1 [TCP segment of a reassembled PDU]
+
+Frame 5361: 55 bytes on wire (440 bits), 55 bytes captured (440 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Transmission Control Protocol, Src Port: 55324, Dst Port: 443, Seq: 1919214364, Ack: 2546807224, Len: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+   5373 109.061903     52.58.116.196         192.168.0.11          TCP      66     443 → 55324 [ACK] Seq=2546807224 Ack=1919214365 Win=31488 Len=0 SLE=1919214364 SRE=1919214365
+
+Frame 5373: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.58.116.196, Dst: 192.168.0.11
+Transmission Control Protocol, Src Port: 443, Dst Port: 55324, Seq: 2546807224, Ack: 1919214365, Len: 0
