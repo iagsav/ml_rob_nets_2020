@@ -1,0 +1,575 @@
+No.     Time           Source                Destination           Protocol Length Info
+    220 5.699336       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=91/23296, ttl=1 (no response found!)
+
+Frame 220: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    221 5.700629       192.168.0.1           192.168.0.11          ICMP     134    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 221: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    222 5.706033       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=92/23552, ttl=1 (no response found!)
+
+Frame 222: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    223 5.708081       192.168.0.1           192.168.0.11          ICMP     134    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 223: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    225 5.709576       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=93/23808, ttl=1 (no response found!)
+
+Frame 225: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    228 5.711734       192.168.0.1           192.168.0.11          ICMP     134    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 228: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    300 6.712607       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=94/24064, ttl=2 (no response found!)
+
+Frame 300: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    301 6.717057       188.254.2.28          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 301: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 188.254.2.28, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    302 6.718094       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=95/24320, ttl=2 (no response found!)
+
+Frame 302: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    303 6.720558       188.254.2.28          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 303: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 188.254.2.28, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    304 6.721578       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=96/24576, ttl=2 (no response found!)
+
+Frame 304: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    306 6.724636       188.254.2.28          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 306: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 188.254.2.28, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    353 7.725090       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=97/24832, ttl=3 (no response found!)
+
+Frame 353: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    354 7.729725       188.254.2.29          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 354: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 188.254.2.29, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    355 7.731091       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=98/25088, ttl=3 (no response found!)
+
+Frame 355: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    356 7.733593       188.254.2.29          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 356: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 188.254.2.29, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    357 7.734555       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=99/25344, ttl=3 (no response found!)
+
+Frame 357: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    358 7.737290       188.254.2.29          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 358: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 188.254.2.29, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    407 8.740954       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=100/25600, ttl=4 (no response found!)
+
+Frame 407: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    408 8.743979       81.177.113.73         192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 408: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 81.177.113.73, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    409 8.745096       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=101/25856, ttl=4 (no response found!)
+
+Frame 409: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    410 8.747928       81.177.113.73         192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 410: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 81.177.113.73, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    411 8.749242       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=102/26112, ttl=4 (no response found!)
+
+Frame 411: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    412 8.752624       81.177.113.73         192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 412: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 81.177.113.73, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    434 9.752741       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=103/26368, ttl=5 (no response found!)
+
+Frame 434: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    435 9.775065       95.167.92.161         192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 435: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 95.167.92.161, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    436 9.776376       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=104/26624, ttl=5 (no response found!)
+
+Frame 436: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    437 9.798769       95.167.92.161         192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 437: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 95.167.92.161, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    438 9.799772       192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=105/26880, ttl=5 (no response found!)
+
+Frame 438: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    439 9.821356       95.167.92.161         192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 439: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 95.167.92.161, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    495 10.804594      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=106/27136, ttl=6 (no response found!)
+
+Frame 495: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    498 10.874730      217.161.68.34         192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 498: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 217.161.68.34, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    499 10.876385      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=107/27392, ttl=6 (no response found!)
+
+Frame 499: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    501 10.945573      217.161.68.34         192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 501: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 217.161.68.34, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    502 10.948552      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=108/27648, ttl=6 (no response found!)
+
+Frame 502: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    507 11.017727      217.161.68.34         192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 507: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 217.161.68.34, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    578 11.952609      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=109/27904, ttl=7 (no response found!)
+
+Frame 578: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    684 15.619916      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=110/28160, ttl=7 (no response found!)
+
+Frame 684: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    813 19.618285      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=111/28416, ttl=7 (no response found!)
+
+Frame 813: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    999 23.621131      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=112/28672, ttl=8 (no response found!)
+
+Frame 999: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1000 23.687697      195.2.20.225          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 1000: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 195.2.20.225, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1001 23.689194      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=113/28928, ttl=8 (no response found!)
+
+Frame 1001: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1002 23.756098      195.2.20.225          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 1002: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 195.2.20.225, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1003 23.758707      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=114/29184, ttl=8 (no response found!)
+
+Frame 1003: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1004 23.825420      195.2.20.225          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 1004: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 195.2.20.225, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1019 24.762624      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=115/29440, ttl=9 (no response found!)
+
+Frame 1019: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1020 24.833364      52.95.216.54          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 1020: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.95.216.54, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1021 24.835074      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=116/29696, ttl=9 (no response found!)
+
+Frame 1021: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1022 24.910988      52.95.216.54          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 1022: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.95.216.54, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1023 24.912519      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=117/29952, ttl=9 (no response found!)
+
+Frame 1023: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1025 24.983249      52.95.216.54          192.168.0.11          ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 1025: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 52.95.216.54, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1039 25.917943      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=118/30208, ttl=10 (no response found!)
+
+Frame 1039: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1040 25.984767      54.239.107.34         192.168.0.11          ICMP     182    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 1040: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 54.239.107.34, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1041 25.985880      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=119/30464, ttl=10 (no response found!)
+
+Frame 1041: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1050 26.052725      54.239.107.34         192.168.0.11          ICMP     182    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 1050: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 54.239.107.34, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1051 26.054138      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=120/30720, ttl=10 (no response found!)
+
+Frame 1051: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1052 26.123705      54.239.107.34         192.168.0.11          ICMP     182    Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 1052: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: zte_2b:d5:3c (74:b5:7e:2b:d5:3c), Dst: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d)
+Internet Protocol Version 4, Src: 54.239.107.34, Dst: 192.168.0.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1069 27.058583      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=121/30976, ttl=11 (no response found!)
+
+Frame 1069: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1181 30.618879      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=122/31232, ttl=11 (no response found!)
+
+Frame 1181: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1322 34.618402      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=123/31488, ttl=11 (no response found!)
+
+Frame 1322: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1391 38.620573      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=124/31744, ttl=12 (no response found!)
+
+Frame 1391: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1480 42.618780      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=125/32000, ttl=12 (no response found!)
+
+Frame 1480: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1559 46.618597      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=126/32256, ttl=12 (no response found!)
+
+Frame 1559: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1644 50.621133      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=127/32512, ttl=13 (no response found!)
+
+Frame 1644: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1706 54.619174      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=128/32768, ttl=13 (no response found!)
+
+Frame 1706: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1777 58.618639      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=129/33024, ttl=13 (no response found!)
+
+Frame 1777: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   1860 62.621070      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=130/33280, ttl=14 (no response found!)
+
+Frame 1860: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   2057 66.618483      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=131/33536, ttl=14 (no response found!)
+
+Frame 2057: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   2182 70.618629      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=132/33792, ttl=14 (no response found!)
+
+Frame 2182: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   2304 74.622544      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=133/34048, ttl=15 (no response found!)
+
+Frame 2304: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   2456 78.619074      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=134/34304, ttl=15 (no response found!)
+
+Frame 2456: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   2582 82.618434      192.168.0.11          52.58.116.196         ICMP     106    Echo (ping) request  id=0x0001, seq=135/34560, ttl=15 (no response found!)
+
+Frame 2582: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{E389EBD1-A233-46B8-B097-4E5690B30BD3}, id 0
+Ethernet II, Src: HonHaiPr_28:7c:6d (b8:76:3f:28:7c:6d), Dst: zte_2b:d5:3c (74:b5:7e:2b:d5:3c)
+Internet Protocol Version 4, Src: 192.168.0.11, Dst: 52.58.116.196
+Internet Control Message Protocol
