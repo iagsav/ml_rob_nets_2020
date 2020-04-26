@@ -1,0 +1,95 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.031467037488063246 0.9606831441959773 0.2758581555971403 3.356444151906791
+  position -1.6858545427196021 5.569151780474295 -8.932254309924593
+}
+TexturedBackground {
+  texture "twilight_cloudy_empty"
+  luminosity 4
+  skyColor [
+    0.5 0.5 1
+  ]
+}
+Ball {
+  translation -2.26303 1.0525 1.70053
+  color 0 0.58 0.08
+  radius 0.25
+  mass 0.05
+  centerOfMass [
+    0 0 0
+  ]
+}
+Ball {
+  translation -1.59388 1.0525 -1.29964
+  name "ball(3)"
+  color 0 0.58 0.08
+  radius 0.25
+  mass 0.05
+  centerOfMass [
+    0 0 0
+  ]
+}
+Ball {
+  translation 1.08145 1.0525 -1.4921
+  name "ball(2)"
+  color 0 0.58 0.08
+  radius 0.25
+  mass 0.05
+  centerOfMass [
+    0 0 0
+  ]
+}
+Ball {
+  translation 0.159686 1.0525 0.749359
+  name "ball(1)"
+  color 0 0.58 0.08
+  radius 0.25
+  mass 0.05
+  centerOfMass [
+    0 0 0
+  ]
+}
+TexturedBackgroundLight {
+  luminosity 0
+}
+RectangleArena {
+  floorSize 5 5
+  floorTileSize 1 1
+  wallHeight 0.5
+}
+Rock17cm {
+  translation -0.452304 0.59 -1.39478
+  physics Physics {
+    mass 2
+  }
+}
+BB-8 {
+  translation -1.77586 8.88178e-16 0.517177
+  controller "my_controller"
+}
+DoubleFluorescentLamp {
+  translation -2.42 0 0
+}
+DoubleFluorescentLamp {
+  translation 2.46516 -0.01 -0.023
+  name "double fuorescent lamp(1)"
+}
+Gnome {
+  translation 1.12229 0 0.261102
+  rotation 0 1 0 0.261799
+  enablePhysics TRUE
+}
+Gnome {
+  translation 1.95261 0 1.91768
+  rotation 0 1 0 0.261799
+  name "gnome(1)"
+  enablePhysics TRUE
+}
+Gnome {
+  translation 2.00523 0 -1.83785
+  rotation 0 1 0 1.83259
+  name "gnome(2)"
+  enablePhysics TRUE
+}
