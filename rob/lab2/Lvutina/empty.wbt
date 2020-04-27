@@ -1,0 +1,85 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.7698228483315706 -0.5755565663434632 -0.27587573493439055 1.1354949352274823
+  position -0.9689723396192778 2.002372209009055 1.3137799698634005
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 1 0 0 4.692820414042842e-06
+  floorTileSize 0.25 0.25
+  wallHeight 0.05
+}
+Ball {
+  translation 0.0339772 0.0324984 -0.267691
+  rotation 1 0 0 -2.913977844050655
+  color 0 1 0
+  mass 0.002
+  centerOfMass [
+    0 0 0
+  ]
+}
+Khepera3 {
+  hidden position_0_0 180.10696324194444
+  hidden position_0_1 139.5557331653005
+  hidden linearVelocity_0 -0.06873040287635178 0.0002658142103375646 -0.2159196239822901
+  hidden angularVelocity_0 0.0012984066360012215 0.2633071531911881 0.028161805749315923
+  hidden translation_1 -0.04577999999999999 0.0245 0
+  hidden rotation_1 -1 0 0 4.17777464091602
+  hidden linearVelocity_1 -0.06265366322934024 -6.7933688909352434e-06 -0.20708421745543987
+  hidden angularVelocity_1 -9.754417008272336 0.20187397183383476 2.9600501726417345
+  hidden translation_2 0.04578 0.0245 0
+  hidden rotation_2 -1 0 0 1.3256564073495927
+  hidden linearVelocity_2 -0.06866741311899668 0.0002143340201409733 -0.2258754248222745
+  hidden angularVelocity_2 -10.668628455972902 0.19800329345757325 3.2392247709108255
+  translation 0.3700361409651228 -0.003540414171476186 0.13011080677383802
+  rotation 1.4495380276943287e-05 0.9998994481706909 0.014180738268219273 0.2991895345695115
+}
+Ball {
+  translation 0.279514 0.0324947 0.358279
+  rotation 1 0 0 -2.0925062480609244
+  name "ball(1)"
+  color 0 1 0
+  mass 0.002
+  centerOfMass [
+    0 0 0
+  ]
+}
+Ball {
+  translation -0.261916 0.0324968 -0.102033
+  rotation 1 0 0 2.051888605176586
+  name "ball(2)"
+  color 0 1 0
+  mass 0.002
+  centerOfMass [
+    0 0 0
+  ]
+}
+Ball {
+  translation -0.0626342 0.0324954 0.23767
+  rotation 1 0 0 -0.5019879022040133
+  name "ball(3)"
+  color 0 1 0
+  mass 0.002
+  centerOfMass [
+    0 0 0
+  ]
+}
+WoodenBox {
+  translation 0.447108 0.05 -0.435549
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.298148 0.05 0.273942
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.431551 0.05 -0.408226
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
