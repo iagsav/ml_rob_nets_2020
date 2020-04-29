@@ -1,0 +1,28 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.22283833825754779 0.9356115652206688 0.2738139405288653 1.8176052533712785
+  position 1.1371508163042887 0.788607783877314 -0.32983833642370847
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+OilBarrel {
+  translation 0.11 0.06 -0.17
+  height 0.1
+  radius 0.04
+}
+OilBarrel {
+  translation -0.25 0.06 -0.08
+  name "oil barrel(1)"
+  height 0.2
+  radius 0.05
+}
+BoeBot {
+  translation 0 0.04 0
+  controller "lab2_controller"
+}
