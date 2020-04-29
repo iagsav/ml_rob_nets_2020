@@ -1,0 +1,39 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  info [
+    "The model of the Pioneer 2 robot"
+  ]
+  title "Pioneer 2"
+}
+Viewpoint {
+  fieldOfView 1
+  orientation -0.22478847502469843 0.8791846209212333 0.4201244385079949 2.239981472165609
+  position 4.829810957891413 5.718897451116015 -2.875155016963809
+}
+TexturedBackground {
+  luminosity 1.1
+}
+TexturedBackgroundLight {
+}
+Pioneer2 {
+  translation 0 0 -1.5
+  rotation 0 1 0 1.57
+  name "pioneer2"
+  controller "pioneer2"
+}
+CircleArena {
+  radius 3
+  floorTileSize 1 1
+  wallHeight 0.3
+  wallAppearance DEF wall PBRAppearance {
+    baseColor 0.0117647 0.0117647 1
+    metalness 0
+  }
+  subdivision 99
+}
+SolidPipe {
+  height 0.6
+  radius 3
+  subdivision 99
+  appearance USE wall
+}
