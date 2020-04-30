@@ -1,0 +1,163 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.996550496830145 0.07951850916374908 0.023746872803930924 5.506224085460643
+  position -0.7555046303013132 4.136603118363216 4.150702631771648
+  follow "Khepera IV"
+  followType "Mounted Shot"
+}
+TexturedBackground {
+  texture "factory"
+  luminosity 0.3
+}
+TexturedBackgroundLight {
+}
+Solid {
+  translation 0 -0.07 0
+  children [
+    DEF Floor Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 3 0.1 3
+      }
+    }
+  ]
+  boundingObject USE Floor
+}
+Solid {
+  translation 0 0.03 -1.54
+  children [
+    DEF Wall Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/lightwood.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 3 0.3 0.05
+      }
+    }
+  ]
+  name "Wall(1)"
+  boundingObject USE Wall
+}
+Solid {
+  translation 0 0.03 1.51
+  children [
+    DEF Wall Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/lightwood.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 3 0.3 0.05
+      }
+    }
+  ]
+  name "Wall(2)"
+  boundingObject USE Wall
+}
+Solid {
+  translation -1.53 0.03 -0.009994
+  rotation 0 1 0 1.5708
+  children [
+    DEF Wall Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/lightwood.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 3 0.3 0.05
+      }
+    }
+  ]
+  name "Wall(3)"
+  boundingObject USE Wall
+}
+Solid {
+  translation 1.52 0.03 -0.0100013
+  rotation 0 1 0 1.5708
+  children [
+    DEF Wall Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/lightwood.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 3 0.3 0.05
+      }
+    }
+  ]
+  name "Wall(4)"
+  boundingObject USE Wall
+}
+Khepera4 {
+  translation 0 0 1.03
+  controller "SuperMaxController"
+}
+WoodenBox {
+  translation -1.2 0.12 0
+  size 0.2 0.2 0.2
+  mass 3
+}
+WoodenBox {
+  translation 0.54 0.12 0.26
+  name "wooden box(1)"
+  size 0.2 0.2 0.2
+  mass 3
+}
+WoodenBox {
+  translation -0.47 0.12 -0.99
+  name "wooden box(2)"
+  size 0.2 0.2 0.2
+  mass 3
+}
+WoodenBox {
+  translation -0.43 0.12 1.01
+  name "wooden box(3)"
+  size 0.2 0.2 0.2
+  mass 3
+}
+WoodenBox {
+  translation 0.95 0.12 1.04
+  name "wooden box(4)"
+  size 0.2 0.2 0.2
+  mass 3
+}
+WoodenBox {
+  translation 0.89 0.12 -0.55
+  name "wooden box(5)"
+  size 0.2 0.2 0.2
+  mass 3
+}
+RubberDuck {
+  scale 3
+}
