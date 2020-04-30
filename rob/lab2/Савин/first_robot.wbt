@@ -1,0 +1,53 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.17976842685548886 -0.9541484078432256 -0.23934102973819735 4.41091446329885
+  position 1.7949848483927338 1.118332851112272 -0.38250869562826467
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorTileSize 0.25 0.25
+  wallHeight 0.05
+}
+SurveyorSrv1 {
+  translation 0 0 0.39
+  controller "my_controller"
+}
+WoodenBox {
+  translation -0.298215 0.05 -0.164507
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.0994682 0.05 0.0848159
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.0466278 0.05 -0.307028
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.424217 0.05 0.43941
+  name "wooden box(6)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.193789 0.05 0.184877
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.193047 0.05 -0.0269335
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.445405 0.05 -0.423609
+  name "wooden box(5)"
+  size 0.1 0.1 0.1
+}
