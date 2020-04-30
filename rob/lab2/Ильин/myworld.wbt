@@ -1,0 +1,76 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.33429310571690585 0.915541640478971 0.2236775000289933 4.994205590061784
+  position -1.795474249389713 1.1720726728404205 0.35456374751713937
+}
+TexturedBackground {
+  texture "twilight_cloudy_empty"
+}
+TexturedBackgroundLight {
+  texture "twilight_cloudy_empty"
+}
+CircleArena {
+  radius 0.4
+  floorAppearance ChequeredParquetry {
+    IBLStrength 5
+  }
+  floorTileSize 1 1
+  wallThickness 0.05
+  wallHeight 0.05
+  wallAppearance BrushedAluminium {
+    IBLStrength 5
+  }
+  subdivision 8
+}
+PingPongBall {
+  translation 0.04 0.02 -0.09
+}
+PingPongBall {
+  translation -0.2 0.02 -0.23
+  name "ping pong ball(1)"
+}
+PingPongBall {
+  translation -0.1 0.02 0.15
+  name "ping pong ball(3)"
+}
+PingPongBall {
+  translation 0.29 0.02 -0.09
+  name "ping pong ball(4)"
+}
+MazeBlock {
+  translation 0.13 0 0.09
+}
+MazeBlock {
+  translation -0.01 0 0.2
+  name "maze block(1)"
+}
+MazeBlock {
+  translation 0.24366 0 -0.0083011
+  rotation 0 1 0 2.0944
+  name "maze block(2)"
+}
+MazeBlock {
+  translation 0.11 0 -0.28
+  rotation 0 1 0 1.5708
+  name "maze block(4)"
+}
+MazeBlock {
+  translation -0.18957 0 0.136556
+  rotation 0 1 0 1.8326
+  name "maze block(5)"
+}
+MazeBlock {
+  translation -0.0787791 0 -0.273183
+  rotation 0 1 0 2.618
+  name "maze block(6)"
+}
+MazeBlock {
+  translation -0.106088 0 -0.0948568
+  rotation 0 1 0 -2.356185307179586
+  name "maze block(3)"
+}
+E-puck {
+  rotation 0 1 0 -1.5707853071795865
+}
