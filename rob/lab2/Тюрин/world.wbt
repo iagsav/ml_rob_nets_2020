@@ -1,0 +1,29 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5885481256325134 -0.8070455084441563 -0.047839848605200734 5.574612859931618
+  position 2.4692814270074814 2.6008468533317166 4.087608648035089
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0.26 0
+  floorSize 10 10
+  floorTileSize 1 1
+  wallHeight 0.05
+}
+WoodenBox {
+  translation 0.773691 0.34 -1.20604
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -1.00272 0.3 1.49406
+  size 0.1 0.1 0.1
+}
+Sojourner {
+  translation 0 0.56 0
+}
