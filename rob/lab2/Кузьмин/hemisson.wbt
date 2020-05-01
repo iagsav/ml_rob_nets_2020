@@ -1,0 +1,128 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  info [
+    "The model of the Hemisson robot which controller can be cross-compiled for the real robot"
+  ]
+  title "Hemisson Cross Compilation"
+  inkEvaporation 0.1
+}
+Viewpoint {
+  orientation -0.4016938579487349 -0.8800174376828956 -0.25339959325202677 1.0564950548688132
+  position -1.6451024061510173 1.1924191157855313 1.2004839089431267
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorTileSize 1 1
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/roughcast.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+  wallTextureUrl []
+}
+Clock {
+  translation 0.125 0.16 -0.407941
+  rotation 0 1 0 -0.523595307179586
+}
+Can {
+  translation -0.35 0.06 -0.15
+}
+Can {
+  translation -0.17 0.06 -0.37
+  name "can(1)"
+}
+BeerBottle {
+  translation 0.24 0 -0.24
+}
+BeerBottle {
+  translation 0.24 0 -0.17
+  name "beer bottle(1)"
+}
+BeerBottle {
+  translation 0.24 0 -0.1
+  name "beer bottle(2)"
+}
+DEF RED_BRICK Solid {
+  translation -0.38 0.03 0.16
+  rotation 0 -1 0 -5.307179586466759e-06
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0.3
+        roughness 1
+        metalness 0
+      }
+      geometry DEF BOXO Box {
+        size 0.23 0.06 0.1
+      }
+    }
+  ]
+  name "red box"
+  boundingObject USE BOXO
+}
+DEF RED_BRICK Solid {
+  translation 0.37 0.03 0.219999
+  rotation 0 -1 0 -5.307179586466759e-06
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0.3
+        roughness 1
+        metalness 0
+      }
+      geometry DEF BOXO Box {
+        size 0.23 0.06 0.1
+      }
+    }
+  ]
+  name "red box(1)"
+  boundingObject USE BOXO
+}
+DEF RED_BRICK Solid {
+  translation 0.31 0.03 0.379999
+  rotation 0 1 0 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0.3
+        roughness 1
+        metalness 0
+      }
+      geometry DEF BOXO Box {
+        size 0.23 0.06 0.1
+      }
+    }
+  ]
+  name "red box(2)"
+  boundingObject USE BOXO
+}
+DEF RED_BRICK Solid {
+  translation 0.31 0.03 0.049999
+  rotation 0 1 0 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0.3
+        roughness 1
+        metalness 0
+      }
+      geometry DEF BOXO Box {
+        size 0.23 0.06 0.1
+      }
+    }
+  ]
+  name "red box(3)"
+  boundingObject USE BOXO
+}
+Hemisson {
+  translation -0.0230131 0.003 -0.131228
+  rotation 0 1 0 6.27016
+  controller "max"
+}
