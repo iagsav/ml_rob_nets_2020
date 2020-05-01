@@ -1,0 +1,92 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.20260431598415143 0.9552305634185709 0.21560626580791617 1.6499710294117824
+  position 41.80635621870561 20.72227597730777 2.53445991936759
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 50 50
+}
+Solid {
+  translation 0 1 25
+  children [
+    DEF A1 Shape {
+      appearance PBRAppearance {
+        baseColor 0.4 0.5 0.2
+      }
+      geometry Box {
+        size 50 2 1
+      }
+    }
+  ]
+  boundingObject USE A1
+}
+Solid {
+  translation 25 1 0
+  rotation 0 1 0 1.5707996938995747
+  children [
+    USE A1
+  ]
+  name "solid(1)"
+  boundingObject USE A1
+}
+Solid {
+  translation -25 1 0
+  rotation 0 1 0 1.5707996938995747
+  children [
+    USE A1
+  ]
+  name "solid(2)"
+  boundingObject USE A1
+  recognitionColors [
+    0 0 0
+  ]
+}
+Solid {
+  translation 0 1 -25
+  children [
+    USE A1
+  ]
+  name "solid(3)"
+  boundingObject USE A1
+}
+Solid {
+  translation 0 5 0
+  children [
+    DEF _ Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 10 10 10
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE _
+}
+Moose {
+  hidden position_0_0 19753.01587864048
+  hidden position_0_1 19555.334210736037
+  hidden position_0_2 18253.55225891333
+  hidden position_0_3 11631.17450261514
+  hidden position_0_4 21800.669909009786
+  hidden position_0_5 21575.326921995213
+  hidden position_0_6 21368.030793638125
+  hidden position_0_7 18137.63374242462
+  hidden rotation_1 0 -1 0 1.3187271321408247
+  hidden rotation_2 0 0.9999999999999999 0 2.0615347931636503
+  hidden rotation_3 0 -1 0 5.38424375054946
+  hidden rotation_4 0 -1 0 5.284686281453928
+  hidden rotation_5 0 1 0 1.9831069033787232
+  hidden rotation_6 0 1 0 1.1314228594873468
+  hidden rotation_7 0 -1 0 5.200749227531011
+  hidden rotation_8 0 -1 0 4.360945904332841
+  translation -1.41869 0.210552 14.9119
+  rotation -0.00224429148567148 0.9999925639016038 0.0031361277435790168 -1.5976985025775832
+  controller "my_controller1"
+}

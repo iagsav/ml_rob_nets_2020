@@ -1,0 +1,33 @@
+#include <webots/DistanceSensor.hpp>
+#include <webots/Motor.hpp>
+#include <webots/Robot.hpp>
+
+#define TIME_STEP 64
+using namespace webots;
+
+int main() {
+  Robot *robot = new Robot();
+  Motor *left_motors[4];
+  Motor *right_motors[4];
+  char left_names[4][20] = {"left motor 1",  "left motor 2",  "left motor 3",  "left motor 4"};
+  char right_names[4][20] = {"right motor 1", "right motor 2", "right motor 3", "right motor 4"};
+ 
+  for (int i = 0; i < 4; i++) {
+    left_motors[i] = robot->getMotor(left_names[i]);
+    left_motors[i]->setPosition(INFINITY);
+    left_motors[i]->setVelocity(0.0);
+    
+    right_motors[i] = robot->getMotor(right_names[i]);
+    right_motors[i]->setPosition(INFINITY);
+    right_motors[i]->setVelocity(0.0);
+  }
+  
+  int leftSpeed = 9.42;
+  int rightSpeed = 9.42;
+  for (int i = 0; i < 4; i++) {
+    left_motors[i]->setVelocity(leftSpeed * 1.5);
+    right_motors[i] -> setVelocity(rightSpeed * 0.5);
+  }
+  delete robot;
+  return 0;  // EXIT_SUCCESS
+}
