@@ -1,0 +1,117 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.2103615704511634 -0.954788341578569 -0.2100648291908155 4.696958892700233
+  position 1.524984994783125 0.5021851067729054 0.11060774673399093
+}
+TexturedBackground {
+  texture "twilight_cloudy_empty"
+  luminosity 2
+}
+TexturedBackgroundLight {
+  texture "twilight_cloudy_empty"
+  luminosity 3
+}
+RectangleArena {
+  translation 0 -0.01 0
+  floorSize 2 2
+  floorTileSize 1 1
+  wallAppearance BrushedAluminium {
+    colorOverride 0.454902 0.482353 1
+    IBLStrength 8
+  }
+}
+RubberDuck {
+  translation 0.0650771 0.05 0.17945
+  rotation 0 1 0 -2.6179953071795863
+  scale 2
+  bodyColor 0.305882 0.25098 0.87451
+}
+RubberDuck {
+  translation -0.532613 0.13 0.568658
+  rotation 0 1 0 -3.1415853071795863
+  name "rubber duck(1)"
+  scale 5
+  bodyColor 0.305882 0.25098 0.87451
+}
+RubberDuck {
+  translation 0.427232 0.13 0.676027
+  rotation 0 1 0 -3.1415853071795863
+  name "rubber duck(5)"
+  scale 5
+  bodyColor 0.305882 0.25098 0.87451
+}
+RubberDuck {
+  translation -0.617995 0.13 -0.652445
+  rotation 0 1 0 1.0472
+  name "rubber duck(4)"
+  scale 5
+  bodyColor 0.305882 0.25098 0.87451
+}
+RubberDuck {
+  translation 0.628638 0.13 -0.696171
+  rotation 0 1 0 -1.3089953071795861
+  name "rubber duck(3)"
+  scale 5
+  bodyColor 0.305882 0.25098 0.87451
+}
+RubberDuck {
+  translation -0.0753708 0.03 -0.168363
+  rotation 0 -1 0 -0.5236053071795865
+  name "rubber duck(2)"
+  scale 2
+  bodyColor 0.305882 0.25098 0.87451
+}
+CircleArena {
+  radius 0.3
+  floorAppearance ChequeredParquetry {
+    IBLStrength 16
+  }
+  floorTileSize 0.2 0.2
+  wallThickness 0.001
+  wallHeight 0
+  wallAppearance BrushedAluminium {
+    textureTransform TextureTransform {
+      scale 0 0
+    }
+    IBLStrength 35
+  }
+  subdivision 26
+}
+ParkingLines {
+  numberOfCarParks 31
+  carParkLength 0
+  carParkWidth 0
+}
+Microbot {
+  translation 0.658505 0.052 -0.073052
+  controller "my_controller"
+}
+Apple {
+  translation 0.129348 0.39 -0.681725
+}
+Apple {
+  translation 0.605882 0.39 -0.36578
+  name "apple(1)"
+}
+Apple {
+  translation -0.00977589 0.39 -0.0153298
+  name "apple(2)"
+}
+Apple {
+  translation -0.737949 0.39 -0.232043
+  name "apple(3)"
+}
+Apple {
+  translation -0.193666 0.39 0.61203
+  name "apple(4)"
+}
+Apple {
+  translation -0.722939 0.39 0.107006
+  name "apple(5)"
+}
+Apple {
+  translation 0.676682 0.39 0.39769
+  name "apple(6)"
+}
