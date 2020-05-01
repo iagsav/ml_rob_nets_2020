@@ -1,0 +1,88 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.3602729497228423 -0.9112054968901442 -0.1997697277747249 5.031528499883841
+  position 10.402166615198265 5.733800322485774 6.5282187429375425
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+}
+FireBird6 {
+  hidden position_0_0 210.00000001424914
+  hidden position_0_1 198.99999999250326
+  hidden translation_22 0.14999999999999988 -0.07998945322814943 -0.07000548838774798
+  hidden rotation_22 0.9999999999999999 0 0 2.840101429856802
+  hidden translation_23 -0.14999999999999994 -0.07998941182011675 -0.07000525283742812
+  hidden rotation_23 1 0 0 2.0619298372435044
+  translation 0.009464835209703096 0.12484167059701533 -0.6340392342830219
+  rotation -0.0027870112017837033 -0.9999907821940643 0.003266205055526733 -1.7289295942766938
+  controller "my_controllerC1223"
+}
+Solid {
+  translation 2.65689 0.0720574183019101 0.857863
+  rotation -0.7149209353564808 -0.6983720985027388 0.03412430544194756 -2.830733547413866
+  children [
+    DEF s1 Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.666667 1
+      }
+      geometry Capsule {
+        height 1
+        radius 0.1
+      }
+    }
+  ]
+  boundingObject USE s1
+  physics Physics {
+  }
+  linearVelocity -3.961926588222073e-16 8.37850401547135e-15 -1.1046351447635128e-16
+  angularVelocity -1.1547769907749935e-15 -1.8463983955830974e-17 3.8691277454756976e-15
+}
+Solid {
+  translation 0 0.5 5
+  children [
+    DEF S2 Shape {
+      appearance PBRAppearance {
+        baseColor 0.105882 0.027451 1
+      }
+      geometry Box {
+        size 10 1 0.1
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE S2
+  recognitionColors [
+    0 0 0
+  ]
+}
+Solid {
+  translation 5 0.5 0
+  rotation 0 1 0 1.5707996938995747
+  children [
+    USE S2
+  ]
+  name "solid(2)"
+  boundingObject USE S2
+}
+Solid {
+  translation -5 0.5 0
+  rotation 0 1 0 1.5707996938995747
+  children [
+    USE S2
+  ]
+  name "solid(3)"
+  boundingObject USE S2
+}
+Solid {
+  translation 0 0.5 -5
+  children [
+    USE S2
+  ]
+  name "solid(1)"
+  boundingObject USE S2
+}
