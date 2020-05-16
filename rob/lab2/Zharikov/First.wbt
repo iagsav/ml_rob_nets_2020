@@ -1,0 +1,19 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.9807239115015822 0.19460931433749684 -0.017544918983177626 0.5466052294841338
+  position 0.16133083784175295 0.7359671967607602 1.2385075048090248
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorTileSize 0.25 0.25
+  wallHeight 0.05
+}
+Elisa3 {
+  translation 0 0.01 0
+  controller "elisa3_go_not_forward"
+}
