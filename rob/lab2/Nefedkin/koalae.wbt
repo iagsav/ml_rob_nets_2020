@@ -1,0 +1,37 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.6963039134881015 0.6963039134880968 0.17413133009977166 0.652735839313132
+  position 1.8976145762120333 2.371562129660394 3.9651925776203156
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 3
+}
+Koala {
+  translation 0.164608 0 0.0464003
+  controller "koalacontrol"
+}
+WoodenBox {
+  translation -0.147454 0.11 -0.251688
+  size 0.2 0.2 0.2
+}
+Apple {
+  translation -0.39472 0.05 0.210992
+}
+BeerBottle {
+  translation -0.404239 0.02 0.308524
+  rotation 0.8628568705192763 -0.357405946367489 0.357405946367489 1.71777
+}
+BeerBottle {
+  translation -0.547965 0 0.0812072
+  name "beer bottle(2)"
+}
+BeerBottle {
+  translation -0.590287 0 0.196784
+  name "beer bottle(1)"
+}
