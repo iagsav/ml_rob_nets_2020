@@ -1,6 +1,6 @@
-"""Sample Webots controller for highway driving benchmark."""
-
 from vehicle import Driver
+
+# Блок начальной инициализации. Вдруг кто не знает.
 
 # name of the available distance sensors
 sensorsNames = [
@@ -18,44 +18,55 @@ sensorsNames = [
     'left']
 sensors = {}
 
+#выставим максимальную скорость, загрузка водителя и установка угла поворота колес в 0.0
 maxSpeed = 50
-maxAngle = 0.1
 driver = Driver()
-driver.setSteeringAngle(0.0)  # go straight
+driver.setSteeringAngle(0.0)
 
 # get and enable the distance sensors
 for name in sensorsNames:
     sensors[name] = driver.getDistanceSensor('distance sensor ' + name)
     sensors[name].enable(10)
 
-frontRange = sensors['front'].getMaxValue()
-
 #define values for PID
-kp = 0.12
-ki = 0.0022
-kd = 1
+kp = 0.12        # коэффициент пропорциональной составляющей
+ki = 0.0022      # коэффициент интегральной составляющей
+kd = 1           # коэффициент дифференциальной составляющей
 
-iMin = -1.0
-iMax = 1.0
+iMin = -1.0      # минимальная сумма ошибок интегральной составляющей
+iMax = 1.0       # максимальная сумма ошибок интегральной составляющей
 
-iSum = 0.0
+iSum = 0.0       # сумма ошибок интегральной составляющей. Изначально равна 0.
 
-oldY = 0.0
-counter = 0;
+oldY = 0.0       # Отклонение на предыдущей итерации. Изначально примем равным 0.
+
+# бесконечный цикл работы контроллера. Мало ли, вдруг кто не знает.
 while driver.step() != -1:
-    # adjust the speed according to the value returned by the front distance sensor
+    
+    ################# БЛОК РЕГУЛИРОВКИ СКОРОСТИ ####################
+    
+    # настройка круизной скорости в зависимости от расстояния до
+    # объекта впереди.
     frontDistance = sensors['front'].getValue()
+    frontRange = sensors['front'].getMaxValue()
     speed = maxSpeed * frontDistance / frontRange
     driver.setCruisingSpeed(speed)
-    # brake if we need to reduce the speed
+    # нажать на тормоз чтобы снизить скорость. Сила нажатия 
+    # определяется тем, как сильно отличаются реальная и 
+    # желаемая скорости, но не больше 1 (100%).
     speedDiff = driver.getCurrentSpeed() - speed
     if speedDiff > 0:
         driver.setBrakeIntensity(min(speedDiff / speed, 1))
+    # если реальная скорость ниже желаемой, отпустить педаль тормоза
     else:
         driver.setBrakeIntensity(0)
+    
+    ################## БЛОК PID-РЕГУЛЯТОРА #######################
+    
+    # полученние данных с правого датчика.
     rightDistance = sensors['right'].getValue()
-    # 6.0 - примерно середина полосы
-    rightDiff = rightDistance - 2.85
+    # 6.0 - примерно середина полосы, rightDiff - отклонение от середины полосы.
+    rightDiff = rightDistance - 6.0
     # up - пропорциональная составляющая, kp - коэффициент пропорциональной составляющей
     up=kp*rightDiff
     
@@ -75,27 +86,15 @@ while driver.step() != -1:
     #В дифференциальной составляющей определяется насколько мы продолжаем отклоняться от курса
     #независимо от работы пропорциональной составляющей. Если пропорциональной не хватает
     #дифференциальная добавит угол, Если пропорциональная будет излишне поворачивать, 
-    #дифференциальная замедлит
+    #дифференциальная замедлит. разница между предыдущим отклонением от середины полосы
+    #и текущим умножается на коэффициент kd.
     ud = kd* (rightDiff-oldY)
     
-    #Вычисляем итоговый угол поворота
+    #Вычисляем итоговый угол поворота как сумму всех 3 составляющих.
     sumAngle = up+ui+ud
-    
-    if (sumAngle > maxAngle) : sumAngle = maxAngle
-    else:
-        if (sumAngle < -maxAngle) : sumAngle = -maxAngle
     
     #Назначаем полученный угол
     driver.setSteeringAngle(sumAngle)
     
-    #Запоминаем текущее значение отклонения от линии
+    #Запоминаем текущее значение отклонения от линии для следующей итерации.
     oldY = rightDiff
-    
-    if (counter == 1000) : 
-        maxSpeed = 100
-        maxAngle = 0.08
-        kp= 0.07
-        ki = 0.0066
-        kd= 1
-    else: 
-        counter+=1
