@@ -6,8 +6,8 @@ robot = Robot()
 
 timestep = int(robot.getBasicTimeStep())
 
-left_motor = robot.getMotor('wheel1') #Объявление левого мотора
-right_motor = robot.getMotor('wheel2')#Объявление правого мотора
+left_motor = robot.getMotor('wheel1') #РћР±СЉСЏРІР»РµРЅРёРµ Р»РµРІРѕРіРѕ РјРѕС‚РѕСЂР°
+right_motor = robot.getMotor('wheel2')#РћР±СЉСЏРІР»РµРЅРёРµ РїСЂР°РІРѕРіРѕ РјРѕС‚РѕСЂР°
 
 left_motor.setPosition(float('inf'))
 right_motor.setPosition(float('inf'))
@@ -15,30 +15,32 @@ right_motor.setPosition(float('inf'))
 left_motor.setVelocity(0.0)
 right_motor.setVelocity(0.0)
 
-ds_left = robot.getDistanceSensor('ds_left')#Объявление левого ds_left.enable(timestep)			       #датчика
-ds_right = robot.getDistanceSensor('ds_right')#Объявлеие правого ds_right.enable(timestep) 				   #датчика
+ds_left = robot.getDistanceSensor('ds_left')#РћР±СЉСЏРІР»РµРЅРёРµ Р»РµРІРѕРіРѕ 
+ds_left.enable(timestep)			       #РґР°С‚С‡РёРєР°
+ds_right = robot.getDistanceSensor('ds_right')#РћР±СЉСЏРІР»РµРёРµ РїСЂР°РІРѕРіРѕ 
+ds_right.enable(timestep) 				   #РґР°С‚С‡РёРєР°
 
-k = 0 #Счетчик времени для объезда препятствий
-n = 1 #коэффициент расстояния до препяствий для объезда
+k = 0 #РЎС‡РµС‚С‡РёРє РІСЂРµРјРµРЅРё РґР»СЏ РѕР±СЉРµР·РґР° РїСЂРµРїСЏС‚СЃС‚РІРёР№
+n = 1 #РєРѕСЌС„С„РёС†РёРµРЅС‚ СЂР°СЃСЃС‚РѕСЏРЅРёСЏ РґРѕ РїСЂРµРїСЏСЃС‚РІРёР№ РґР»СЏ РѕР±СЉРµР·РґР°
 
-while robot.step(timestep) != -1: #Основной цикл контроллера
-    left = ds_left.getValue()	  #Присваеваем переменным данные 
-    right = ds_right.getValue()	  #с датчиков
-    if k != 0:				  #Условие для счетчика времени
-        k -= 1				  #Пока не 0 осуществляется 	
-        continu   			  #"объезд"
-    left_speed = 1			  #Начальная скорость для левого 
-    right_speed = 1			  #и правого мотора
+while robot.step(timestep) != -1: #РћСЃРЅРѕРІРЅРѕР№ С†РёРєР» РєРѕРЅС‚СЂРѕР»Р»РµСЂР°
+    left = ds_left.getValue()	  #РџСЂРёСЃРІР°РµРІР°РµРј РїРµСЂРµРјРµРЅРЅС‹Рј РґР°РЅРЅС‹Рµ 
+    right = ds_right.getValue()	  #СЃ РґР°С‚С‡РёРєРѕРІ
+    if k != 0:				  #РЈСЃР»РѕРІРёРµ РґР»СЏ СЃС‡РµС‚С‡РёРєР° РІСЂРµРјРµРЅРё
+        k -= 1				  #РџРѕРєР° РЅРµ 0 РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ 	
+        continue   			  #"РѕР±СЉРµР·Рґ"
+    left_speed = 1			  #РќР°С‡Р°Р»СЊРЅР°СЏ СЃРєРѕСЂРѕСЃС‚СЊ РґР»СЏ Р»РµРІРѕРіРѕ 
+    right_speed = 1			  #Рё РїСЂР°РІРѕРіРѕ РјРѕС‚РѕСЂР°
     
-    if right > 50*n or left > 50*n: #Условие "попадания" в 
-        k = 10				    #препятствие
-        if right<left:		    #Условие для определения 
-            left_speed = 1		    #лучшего способа объезда
-            right_speed = -1	    #и присваивание 
-        else:				    #соответствующих скоростей
-            left_speed = -1		    #левому и
-            right_speed = 1 	    #правому моторам
+    if right > 50*n or left > 50*n: #РЈСЃР»РѕРІРёРµ "РїРѕРїР°РґР°РЅРёСЏ" РІ 
+        k = 10				        #РїСЂРµРїСЏС‚СЃС‚РІРёРµ
+        if right<left:		        #РЈСЃР»РѕРІРёРµ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ 
+            left_speed = 1		    #Р»СѓС‡С€РµРіРѕ СЃРїРѕСЃРѕР±Р° РѕР±СЉРµР·РґР°
+            right_speed = -1	    #Рё РїСЂРёСЃРІР°РёРІР°РЅРёРµ 
+        else:				        #СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёС… СЃРєРѕСЂРѕСЃС‚РµР№
+            left_speed = -1		    #Р»РµРІРѕРјСѓ Рё
+            right_speed = 1 	    #РїСЂР°РІРѕРјСѓ РјРѕС‚РѕСЂР°Рј
             
-    left_motor.setVelocity(left_speed)  #Установка скорости
+    left_motor.setVelocity(left_speed)  #РЈСЃС‚Р°РЅРѕРІРєР° СЃРєРѕСЂРѕСЃС‚Рё
     right_motor.setVelocity(right_speed)
     pass
