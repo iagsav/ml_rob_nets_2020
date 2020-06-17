@@ -1,0 +1,18 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.041386126829139024 0.9625630461907455 0.2678797689525569 2.823559152546278
+  position 0.34095837532448325 1.6394317292410285 -2.35280797901522
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 3
+}
+Pioneer3dx {
+  translation -0.621578 0.0975 0.34528
+  controller "AndryControl"
+}
