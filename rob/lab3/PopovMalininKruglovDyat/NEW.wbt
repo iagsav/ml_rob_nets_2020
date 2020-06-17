@@ -1,0 +1,161 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  info [
+    "This behavior-based controller allows the e-puck robot to follow the black line, avoid obstacles and recover its path afterwards."
+    "This model of the e-puck is equipped with ground sensors, located at the front of the e-puck."
+    "Thanks to Jean-Christophe Zufferey (EPFL-LIS)."
+  ]
+  title "E-Puck"
+  lineScale 0.04
+}
+Viewpoint {
+  orientation -0.8263762239115455 -0.5210077454047503 -0.213666248579307 0.9213536107118294
+  position -4.103303332639342 4.893355843576956 4.958986225833515
+  follow "e-puck"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -0.01 0
+  floorSize 5 5
+  floorTileSize 5 5
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/USER/Desktop/a15beb7b6d02f057.png"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+  wallHeight 0.05
+}
+DEF OBSTACLE3 Solid {
+  translation 0.987094 0.005 -0.746756
+  rotation 0 1 0 13.7261
+  scale 3.22656 3.22656 3.22656
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.501961 0.501961 0.501961
+        roughness 0.5
+        metalness 0
+      }
+      geometry DEF BOX3 Box {
+        size 0.2 0.05 0.05
+      }
+    }
+  ]
+  name "gray box(1)"
+  boundingObject USE BOX3
+}
+DEF OBSTACLE1 Solid {
+  translation -0.115126 0.025 -0.456627
+  rotation 0 1 0 -5.307179586466759e-06
+  scale 11.4735 11.4735 11.4735
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0.3
+        roughness 0.5
+        metalness 0
+      }
+      geometry DEF BOX1 Box {
+        size 0.05 0.05 0.05
+      }
+    }
+  ]
+  name "red box"
+  boundingObject USE BOX1
+}
+DEF OBSTACLE1 Solid {
+  translation -0.613173 0.025 1.6041
+  rotation 0 1 0 0.523599
+  scale 11.4735 11.4735 11.4735
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0.3
+        roughness 0.5
+        metalness 0
+      }
+      geometry DEF BOX1 Box {
+        size 0.05 0.05 0.05
+      }
+    }
+  ]
+  name "red box(1)"
+  boundingObject USE BOX1
+}
+DEF OBSTACLE2 Solid {
+  translation -1.67262 0.025 -0.0283327
+  rotation 0 1 0 3.82203
+  scale 8.26411 8.26411 8.26411
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.501961 1
+        roughness 0.5
+        metalness 0
+      }
+      geometry DEF BOX2 Box {
+        size 0.08 0.05 0.08
+      }
+    }
+  ]
+  name "pink box"
+  boundingObject USE BOX2
+}
+DEF OBSTACLE2 Solid {
+  translation -0.472444 0.025 -1.51167
+  rotation 0 -1 0 2.72295
+  scale 8.26411 8.26411 8.26411
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.501961 1
+        roughness 0.5
+        metalness 0
+      }
+      geometry DEF BOX2 Box {
+        size 0.08 0.05 0.08
+      }
+    }
+  ]
+  name "pink box(1)"
+  boundingObject USE BOX2
+}
+DEF OBSTACLE3 Solid {
+  translation -1.38952 0.005 0.814985
+  rotation 0 1 0 13.7261
+  scale 3.22656 3.22656 3.22656
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.501961 0.501961 0.501961
+        roughness 0.5
+        metalness 0
+      }
+      geometry DEF BOX3 Box {
+        size 0.2 0.05 0.05
+      }
+    }
+  ]
+  name "gray box"
+  boundingObject USE BOX3
+}
+DEF EPUCK E-puck {
+  hidden position_0_0 2.0879898756042903
+  hidden position_0_1 2.2324825626483644
+  hidden rotation_1 -1 0 0 2.0879898756042903
+  hidden rotation_2 -1 0 0 2.2324825626483644
+  translation -1.8953188544125184 -0.010064648038306197 0.45603549217959577
+  rotation 0.016483351829125817 0.9998638113367265 0.000811105216482733 -0.020239804284569694
+  controller "my_controller"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
