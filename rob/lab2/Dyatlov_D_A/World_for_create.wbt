@@ -1,0 +1,67 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.1530023468460923 0.9449742687584237 0.289160704875456 2.19310651778256
+  position 5.974440870562371 2.900893132674821 -3.0901100275340374
+  follow "Create"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+CircleArena {
+  radius 4
+}
+PottedTree {
+  translation 1.14 0 0
+  name "potted tree(10)"
+}
+PottedTree {
+  translation 1.06 0 -0.7
+  name "potted tree(11)"
+}
+PottedTree {
+  translation 0.6 0 -1.4
+  name "potted tree(12)"
+}
+PottedTree {
+  translation -2.05 0 1.55
+  name "potted tree(8)"
+}
+PottedTree {
+  translation -1.28 0 2.1
+  name "potted tree(9)"
+}
+PottedTree {
+  translation -0.39 0 2.22
+  name "potted tree(7)"
+}
+PottedTree {
+  translation -2.89 0 0
+  name "potted tree(1)"
+}
+PottedTree {
+  translation -2.61 0 0.76
+  name "potted tree(6)"
+}
+PottedTree {
+  translation -2.66 0 -1
+  name "potted tree(2)"
+}
+PottedTree {
+  translation -1.78 0 -1.6
+  name "potted tree(3)"
+}
+PottedTree {
+  translation -1.01 0 -2.12
+  name "potted tree(4)"
+}
+PottedTree {
+  translation -0.19 0 -2.12
+  name "potted tree(5)"
+}
+Create {
+  translation 1.81 0.044 0
+  controller "drive"
+}
