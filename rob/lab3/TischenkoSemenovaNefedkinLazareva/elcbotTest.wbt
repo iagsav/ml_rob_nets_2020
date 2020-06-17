@@ -1,0 +1,369 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  info [
+    "Example use of a Radar device."
+  ]
+  title "Radar"
+}
+Viewpoint {
+  orientation 0.15495747574286275 0.9079830269764402 0.38930065943188563 3.497742860138499
+  position -1.1688185762906205 4.3875426420474035 -4.198662780321792
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.00761003 0 -0.0123985
+  floorSize 3 3
+}
+DEF Stena Solid {
+  translation 0.740701 0.235 0.800328
+  rotation 0 1 0 -2.3561953071795863
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        roughness 0.2189099510000001
+        metalness 0
+      }
+      geometry DEF Stena Box {
+        size 2 0.5 0.1
+      }
+    }
+  ]
+  name "green box"
+  boundingObject Shape {
+    appearance PBRAppearance {
+      roughness 1.1102230246251565e-16
+      metalness 0
+    }
+    geometry USE Stena
+  }
+}
+DEF eclbot Robot {
+  translation 1.13317 -0.000227151 -1.19559
+  rotation 0.014228596635104175 0.9998987635356978 9.857777668751476e-05 3.12762
+  children [
+    HingeJoint {
+      jointParameters HingeJointParameters {
+      }
+      endPoint Solid {
+        translation 0.17 0.525641 -0.0392538
+        rotation 1 0 0 0.261799
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 1 1 0
+              metalness 0
+            }
+            geometry Box {
+              size 0.03 1 0.03
+            }
+          }
+        ]
+        boundingObject Box {
+          size 0.03 1 0.03
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+      }
+      endPoint Solid {
+        translation -0.17 0.525641 -0.0392538
+        rotation 1 0 0 0.261799
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 1 1 0
+              metalness 0
+            }
+            geometry Box {
+              size 0.03 1 0.03
+            }
+          }
+        ]
+        name "solid(1)"
+        boundingObject Box {
+          size 0.03 1 0.03
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+      }
+      endPoint Solid {
+        translation -0.17 0.360682 0.0856861
+        rotation 1 0 0 -0.2618053071795865
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 1 1 0
+              metalness 0
+            }
+            geometry Box {
+              size 0.03 0.65 0.03
+            }
+          }
+        ]
+        name "solid(5)"
+        boundingObject Box {
+          size 0.03 0.65 0.03
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+      }
+      endPoint Solid {
+        translation 0.17 0.360682 0.0856861
+        rotation 1 0 0 -0.2618053071795865
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 1 1 0
+              metalness 0
+            }
+            geometry Box {
+              size 0.03 0.65 0.03
+            }
+          }
+        ]
+        name "solid(6)"
+        boundingObject Box {
+          size 0.03 0.65 0.03
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+      }
+      endPoint Solid {
+        translation -0.00999808 0.989286 0.0849794
+        rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 1.58783
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 1 1 0
+              metalness 0
+            }
+            geometry Box {
+              size 0.03 0.35 0.03
+            }
+          }
+        ]
+        name "solid(2)"
+        boundingObject Box {
+          size 0.03 0.35 0.03
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+      }
+      endPoint Solid {
+        translation -0.00999884 0.805765 0.0358036
+        rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 1.58783
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 1 1 0
+              metalness 0
+            }
+            geometry Box {
+              size 0.03 0.35 0.03
+            }
+          }
+        ]
+        name "solid(3)"
+        boundingObject Box {
+          size 0.03 0.35 0.03
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+      }
+      endPoint Solid {
+        translation 1.61072e-06 0.907531 0.042367
+        rotation 0.1294279597735375 -0.1294279597735375 0.9831056944488314 1.58783
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 1 0 1
+            }
+            geometry Box {
+              size 0.16 0.3 0.01
+            }
+          }
+        ]
+        name "solid(4)"
+        boundingObject Box {
+          size 0.16 0.3 0.01
+        }
+      }
+    }
+    Transform {
+      translation 0 0.0415 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.4 0.01 0.4
+          }
+        }
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 2476.3235976157393
+        axis -1 0 0
+        anchor 0 0.025 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+          consumptionFactor 70
+        }
+        PositionSensor {
+          name "wheel1 sensor"
+        }
+      ]
+      endPoint Solid {
+        translation -0.199999999999997 0.025 0
+        rotation 1 0 0 4.236083413017728
+        children [
+          DEF WHEEL Transform {
+            rotation 0 0 1 1.57
+            children [
+              Shape {
+                appearance PBRAppearance {
+                  baseColor 0 0 0
+                  roughness 1
+                }
+                geometry Cylinder {
+                  height 0.01
+                  radius 0.025
+                }
+              }
+            ]
+          }
+        ]
+        name "wheel1"
+        boundingObject USE WHEEL
+        physics DEF PHYSICS_WHEEL Physics {
+          density -1
+          mass 0.05
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 2467.508537433067
+        axis -1 0 0
+        anchor 0 0.025 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+          consumptionFactor 70
+        }
+        PositionSensor {
+          name "wheel2 sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0.2 0.025 0
+        rotation 1 0 0 0.08745298133093207
+        children [
+          USE WHEEL
+        ]
+        name "wheel2"
+        boundingObject USE WHEEL
+        physics USE PHYSICS_WHEEL
+      }
+    }
+    DistanceSensor {
+      translation -0.18 0.045 -0.2
+      rotation 0 1 0 2.07
+      children [
+        DEF ds_left Transform {
+          rotation 0 0 1 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 1 1
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.004
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "ds_left"
+      lookupTable [
+        0 1024 0
+        0.05 1024 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+    DistanceSensor {
+      translation 0.18 0.045 -0.2
+      rotation 0 1 0 1.07
+      children [
+        USE ds_left
+      ]
+      name "ds_right"
+      lookupTable [
+        0 1024 0
+        0.05 1024 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+    DEF SMILE Transform {
+      translation 0 0.025 -0.036
+      rotation 0.7745972408364944 0.44721228048294853 0.4472139204829502 1.8234794
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.721569 0.290196 0.290196
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.018
+            radius 0.009
+            subdivision 3
+          }
+        }
+      ]
+    }
+  ]
+  name "elcbot"
+  boundingObject Transform {
+    translation 0 0.0415 0
+    children [
+      Box {
+        size 0.4 0.01 0.4
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 0.5
+  }
+  controller "ControlRob"
+}
